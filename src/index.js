@@ -7,11 +7,11 @@ import connectDb from './db/db.js'
 
 import dotenv from 'dotenv'
 
-// dotenv.config({
-//     path: './env'
-// })
+dotenv.config({
+    path: './env'
+})
 
-dotenv.config()
+// dotenv.config()
 
 connectDb()
 
