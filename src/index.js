@@ -4,14 +4,13 @@ import connectDb from './db/db.js'
 // require('dotenv').config({path: './env'})
 
 // import {} from 'dotenv/config'
-
 import dotenv from 'dotenv'
 
-dotenv.config({
-    path: './env'
-})
+// dotenv.config({
+//     path: './env'
+// })
 
-// dotenv.config()
+dotenv.config()
 
 connectDb()
 
